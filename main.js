@@ -36,7 +36,26 @@ function expect(target) {
 // \___/\____/_/ /_/____/\__/_/   \__,_/\___/\__/\____/_/  /____/
 //
 // ONLY ADD CODE TO THIS SECTION
+class Dog {
+  constructor(description, contents) {
+    this.status = 'normal';
+    this.color = 'red' || 'blue-red';
+    
+  }
 
+
+}
+
+
+class Human {
+  constructor(description, contents) {
+
+  }
+
+  pet(dog) {
+    dog.status = 'happy';
+  }
+}
 
 
 
