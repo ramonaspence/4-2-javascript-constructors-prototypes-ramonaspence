@@ -37,10 +37,10 @@ function expect(target) {
 //
 // ONLY ADD CODE TO THIS SECTION
 class Dog {
-  constructor(description, contents) {
+  constructor(object) {
     this.status = 'normal';
     this.color = 'red' || 'blue-red';
-    
+    //try to think control flow, not special methods that do all the things. just some control flow.
   }
 
 
