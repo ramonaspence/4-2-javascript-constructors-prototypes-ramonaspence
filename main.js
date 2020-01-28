@@ -37,14 +37,14 @@ function expect(target) {
 //
 // ONLY ADD CODE TO THIS SECTION
 class Dog {
-  constructor(object) {
-    this.status = 'normal';
-    this.color = 'red' || 'blue-red';
+  constructor(object, value) {
+  this.status = 'normal';
     //try to think control flow, not special methods that do all the things. just some control flow.
   }
-
-
+    
 }
+
+
 
 
 class Human {
